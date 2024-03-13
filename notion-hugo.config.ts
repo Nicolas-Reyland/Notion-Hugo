@@ -4,26 +4,6 @@ const userConfig: UserConfig = {
     mount: {
         manual: false,
         page_url: 'https://www.notion.so/ARS-5b6fe304917443f89c1cda0d813cced3',
-        pages: [
-            // {
-            //     page_id: '<page_id>',
-            //     target_folder: 'path/relative/to/content/folder'
-            // }
-            {
-                page_id: '5b6fe304917443f89c1cda0d813cced3',
-                target_folder: '.'
-            }
-        ],
-        databases: [
-            // {
-            //     database_id: '<database_id>',
-            //     target_folder: 'path/relative/to/content/folder'
-            // }
-            {
-                database_id: 'f8ba247b9b3d42dda79a4d8ae545d4c5',
-                target_folder: '.'
-            }
-        ],
     },
     formatter: {
         equation: {
